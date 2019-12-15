@@ -1,0 +1,56 @@
+@import 'section-1.scss';
+@import 'section-2.scss';
+@import 'section-3.scss';
+@import 'section-4.scss';
+@import 'section-5.scss';
+@import 'section-6.scss';
+@import 'utils.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.5rem;
+  max-width: 1920px;
+  color: rgba(60, 60, 60, 255);
+}
+footer {
+  margin: 5% 26%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  .Flogo {
+    margin: 0 2%;
+    height: 3.7rem;
+  }
+  p {
+    margin: 0 2%;
+    font-family: Lato-Regular;
+    font-size: 1.4rem;
+    color: rgba(60, 60, 60, 255);
+    text-align: left;
+  }
+}
+
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url('../fonts/Lato-Bold.ttf');
+}
+
+@font-face {
+  font-family: Lato-Light;
+  src: url('../fonts/Lato-Light.ttf');
+}
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url('../fonts/Lato-Regular.ttf');
+}

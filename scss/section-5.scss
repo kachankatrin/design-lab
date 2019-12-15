@@ -1,0 +1,56 @@
+.container-flex {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    div {
+      position: relative;
+      height: 23.7rem;
+      background-size: 100% 100%;
+      width: 30%;
+    }
+    &:first-child{
+      div {
+        margin-bottom: 1%;
+        &:first-child{
+          background-image: url('../img/Layer5.png');
+        }
+        &:nth-child(2){
+          background-image: url('../img/Layer5_1.png');
+          width: 40%;
+          margin: 0% 1% 1% 1%;
+        }
+        &:nth-child(3){
+          background-image: url('../img/Layer5_2.png');
+        }
+      }
+    }
+    &:nth-child(2){
+      div {
+        &:first-child{
+          background-image: url('../img/Layer5_3.png');
+        }
+        &:nth-child(2){
+          background-image: url('../img/Layer5_4.png');
+          width: 40%;
+          margin: 0% 1% 0% 1%;
+        }
+        &:nth-child(3){
+          background-image: url('../img/Layer5_5.png');
+        }
+      }
+    }
+
+  }
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 15%;
+  left: 8%;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-family: Lato-Bold;
+  text-align: center;
+}

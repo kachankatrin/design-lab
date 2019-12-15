@@ -1,0 +1,187 @@
+.section-1 {
+  padding: 12% 12% 0 12%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("../img/hero-bg.jpg@1X.png");
+  width: 100%;
+  height: 107.2rem;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+  text-transform: uppercase; }
+  .section-1 .logo {
+    margin-bottom: -3%; }
+  .section-1 .title h1 {
+    margin-top: 5%;
+    font-family: Lato-Bold;
+    font-size: 5.4rem; }
+  .section-1 .title h6 {
+    width: 100%;
+    margin-top: 6%;
+    font-family: Lato-Regular;
+    letter-spacing: 0.1rem;
+    line-height: 2.9rem; }
+  .section-1 .scroll {
+    margin: 10% 0 3% 0;
+    height: 3.7rem; }
+
+.section-2 fieldset legend {
+  color: #3c3c3c; }
+
+.section-2 fieldset h6 {
+  font-size: 1.6rem; }
+
+.section-3 {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-image: url("../img/services.png");
+  width: 100%;
+  height: 48.8rem;
+  background-size: 100% 100%; }
+  .section-3 fieldset {
+    border: 0.2rem solid white; }
+    .section-3 fieldset legend {
+      color: white; }
+    .section-3 fieldset h6 {
+      font-size: 1.6rem;
+      color: white;
+      line-height: 2.6rem; }
+
+.section-4 fieldset .WWD {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-bottom: 14%; }
+  .section-4 fieldset .WWD h3 {
+    margin: 7% 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    font-family: Lato-Bold;
+    text-align: center; }
+  .section-4 fieldset .WWD p {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    font-family: Lato-Light;
+    text-align: center; }
+
+.container-flex .container {
+  display: flex;
+  justify-content: space-between; }
+  .container-flex .container div {
+    position: relative;
+    height: 23.7rem;
+    background-size: 100% 100%;
+    width: 30%; }
+  .container-flex .container:first-child div {
+    margin-bottom: 1%; }
+    .container-flex .container:first-child div:first-child {
+      background-image: url("../img/Layer5.png"); }
+    .container-flex .container:first-child div:nth-child(2) {
+      background-image: url("../img/Layer5_1.png");
+      width: 40%;
+      margin: 0% 1% 1% 1%; }
+    .container-flex .container:first-child div:nth-child(3) {
+      background-image: url("../img/Layer5_2.png"); }
+  .container-flex .container:nth-child(2) div:first-child {
+    background-image: url("../img/Layer5_3.png"); }
+  .container-flex .container:nth-child(2) div:nth-child(2) {
+    background-image: url("../img/Layer5_4.png");
+    width: 40%;
+    margin: 0% 1% 0% 1%; }
+  .container-flex .container:nth-child(2) div:nth-child(3) {
+    background-image: url("../img/Layer5_5.png"); }
+
+h2 {
+  color: white;
+  position: absolute;
+  bottom: 15%;
+  left: 8%;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-family: Lato-Bold;
+  text-align: center; }
+
+.section-6 fieldset legend {
+  font-size: 3rem; }
+
+.section-6 fieldset h6 {
+  line-height: 2.6rem; }
+
+.section-6 fieldset .btn {
+  margin: 0% 21% 7% 21%;
+  padding: 2% 14%;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  letter-spacing: 0.3rem;
+  color: white;
+  font-family: Lato-Regular;
+  text-align: center;
+  background-color: #3c3c3c;
+  border: 0.2rem solid #3c3c3c; }
+
+fieldset {
+  padding: 2% 9% 0% 10%;
+  margin: 5% 26%;
+  border: 0.2rem solid #3c3c3c; }
+  fieldset h6 {
+    line-height: 2.4rem;
+    font-family: Lato-Light;
+    text-align: center;
+    margin-bottom: 4%; }
+
+span {
+  font-size: 8.3rem; }
+
+legend {
+  padding: 0% 15%;
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-family: Lato-Bold;
+  text-align: center; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-size: 1.5rem;
+  max-width: 1920px;
+  color: #3c3c3c; }
+
+footer {
+  margin: 5% 26%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center; }
+  footer .Flogo {
+    margin: 0 2%;
+    height: 3.7rem; }
+  footer p {
+    margin: 0 2%;
+    font-family: Lato-Regular;
+    font-size: 1.4rem;
+    color: #3c3c3c;
+    text-align: left; }
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url("../fonts/Lato-Bold.ttf"); }
+
+@font-face {
+  font-family: Lato-Light;
+  src: url("../fonts/Lato-Light.ttf"); }
+
+@font-face {
+  font-family: Lato-Regular;
+  src: url("../fonts/Lato-Regular.ttf"); }
